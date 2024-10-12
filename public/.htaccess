@@ -1,0 +1,10 @@
+RewriteEngine On
+
+#If it's a real file then load it!
+RewriteCond %{REQUEST_FILENAME} !-f
+#If it's a real directory then load it!
+RewriteCond %{REQUEST_FILENAME} !-d
+#Otherwise send every request to the index page (unless it's a real file or folder then open it!
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
+
+#This htaccess file works for Apache server
