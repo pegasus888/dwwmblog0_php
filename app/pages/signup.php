@@ -11,10 +11,10 @@
     <meta name="description" content="">
     <title>Signup</title>
 
-    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="stylesheet" href="<?=ROOT?>../../css/custom.css">
 
     <!--    Custom styles for this template -->
-    <link href="../../public/assets/bootstrap-5.3.3-examples/sign-in/sign-in.css" rel="stylesheet">
+    <link href="<?=ROOT?>../../public/assets/bootstrap-5.3.3-examples/sign-in/sign-in.css" rel="stylesheet">
 
 </head>
 
@@ -22,8 +22,8 @@
 
 <main class="form-signin w-100 m-auto">
     <form method="post">
-        <a href="#" class="">
-            <img class="mb-4 rounded-circle shadow" src="../../public/assets/images/no_image.jpg" alt="logo" width="92" height="92" style="object-fit: cover;">
+        <a href="<?=ROOT?>/home" class="">
+            <img class="mb-4 rounded-circle shadow" src="<?=ROOT?>../../public/assets/images/no_image.jpg" alt="logo" width="92" height="92" style="object-fit: cover;">
         </a>
         <h1 class="h3 mb-3 fw-normal">Create Account</h1>
 
@@ -49,7 +49,7 @@
 
         <div class="my-2">
             Already have an Account?
-            <a href="login.php" class="mx-2">Login Here</a>
+            <a href="<?=ROOT?>/login" class="mx-2">Login Here</a>
         </div>
 
         <div class="form-check text-start my-3">
@@ -65,7 +65,7 @@
     </form>
 </main>
 
-<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
+<script src="<?=ROOT?>../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
 
 </body>
 </html>

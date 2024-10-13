@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <title>Footer</title>
 
-    <link rel="stylesheet" href="../../../css/custom.css">
+    <link rel="stylesheet" href="<?=ROOT?>../../../css/custom.css">
 
 </head>
 
@@ -27,7 +27,7 @@
         <div class="text-center mb-2">
             <article class="">
 
-                <a href="#" class="nav-link p-0">
+                <a href="<?=ROOT?>/contact" class="nav-link p-0">
 
                     <div class="container">
                         <ul class="list-unstyled d-flex justify-content-center">
@@ -83,16 +83,16 @@
                 <h5 class="text-info">Links</h5>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2">
-                        <a class="nav-link d-flex align-items-center gap-2" href="../home.php">
+                        <a class="nav-link d-flex align-items-center gap-2" href="<?=ROOT?>">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" color="altmysaddlebrown" viewBox="0 0 16 16">
                                 <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
                             </svg>
                             <!--Home-->
                         </a>
                     </li>
-                    <li class="nav-item mb-2"><a href="../login.php" class="nav-link p-0 text-body-primary">Login</a></li>
-                    <li class="nav-item mb-2"><a href="../about.php" class="nav-link p-0 text-body-primary">About</a></li>
-                    <li class="nav-item mb-2"><a href="../contact.php" class="nav-link p-0 text-body-primary">Contact</a></li>
+                    <li class="nav-item mb-2"><a href="<?=ROOT?>/../login" class="nav-link p-0 text-body-primary">Login</a></li>
+                    <li class="nav-item mb-2"><a href="<?=ROOT?>/../about" class="nav-link p-0 text-body-primary">About</a></li>
+                    <li class="nav-item mb-2"><a href="<?=ROOT?>/../contact" class="nav-link p-0 text-body-primary">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -109,7 +109,7 @@
 <!--/Footer-->
 
 
-<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
+<script src="<?=ROOT?>/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
 
 </body>
 </html>
