@@ -1,5 +1,7 @@
 <?php
 
+require "../app/core/init.php";
+
 // Absolute path moved to config.php
 // define('ROOT', 'http://localhost/dwwmblog0_php/public');
 
