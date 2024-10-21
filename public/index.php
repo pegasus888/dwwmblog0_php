@@ -1,7 +1,7 @@
 <?php
 
-// Absolute path
-define('ROOT', 'http://localhost/dwwmblog0_php/public');
+// Absolute path moved to config.php
+// define('ROOT', 'http://localhost/dwwmblog0_php/public');
 
 // If a webserver: route path
 // define('ROOT', 'http://mywebsite.com');

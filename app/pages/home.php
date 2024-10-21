@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Home</title>
+    <title>Home - <?=APP_NAME?></title>
 
     <link rel="stylesheet" href="<?=ROOT?>../../css/custom.css">
 
