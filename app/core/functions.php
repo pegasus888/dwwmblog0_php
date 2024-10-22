@@ -1,6 +1,6 @@
 <?php
 
-//create_tables();  Muted so no waste of time because of running
+//create_tables();  (Muted so no waste of time because of running)
 function create_tables()
 {
     // Create a PDO Object
