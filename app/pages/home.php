@@ -1,15 +1,10 @@
-<?php
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Home -</title>
+    <title>Home | <?=APP_NAME?></title>
 
     <link rel="stylesheet" href="<?=ROOT?>../../css/custom.css">
 
@@ -18,26 +13,25 @@
 <body>
 
 <!--Header-->
-<iframe src="http://localhost/dwwmblog0_php/app/pages/includes/header.php" title="header"  width="100%"  height="200"></iframe>
-<!--/Header-->
+<?php include '../app/pages/includes/header.php';?>
+<!-- /Header-->
 
 <!--Slider-->
-<iframe src="http://localhost/dwwmblog0_php/app/pages/includes/carousel.php" title="header"  width="100%"  height="700"></iframe>
-<!--/Slider-->
+<?php include '../app/pages/includes/carousel.php';?>
+<!-- /Slider-->
 
 <h1 class="display-4 mx-4 text-primary text-center">Featured</h1>
 
-<!--post-card Display on home posts cards-->
+<!--post-card -->
 <div class="row mb-2 justify-content-center">
 
-    <iframe src="http://localhost/dwwmblog0_php/app/pages/includes/post-card.php" title="post-card"  width="100%"  height="500"></iframe>
-
+    <?php include '../app/pages/includes/post-card.php';?>
 </div>
 <!--/post-card-->
 
 <!--Footer-->
-<iframe src="http://localhost/dwwmblog0_php/app/pages/includes/footer.php" title="footer"  width="100%"  height="500"></iframe>
-<!--/Footer-->
+<?php include '../app/pages/includes/footer.php';?>
+<!-- /Footer-->
 
 <script src="<?=ROOT?>../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
 

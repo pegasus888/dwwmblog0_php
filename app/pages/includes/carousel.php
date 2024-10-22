@@ -28,7 +28,7 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../../../public/assets/images/no_image.jpg" class="d-block img-fluid vw-100 float-end" style="object-fit: contain; height: 100vh" alt="...">
+            <img src="<?=ROOT?>../../public/assets/images/no_image.jpg" class="d-block img-fluid vw-100 float-end" style="object-fit: contain; height: 100vh" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <!--<h5 class="float-end bg-primary">First slide label</h5>-->
                 <div class="container-fluid float-start">
@@ -52,14 +52,14 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img src="../../../public/assets/images/no_image.jpg" class="d-block img-fluid w-100" style="object-fit: contain; height: 100vh" alt="...">
+            <img src="<?=ROOT?>../../public/assets/images/no_image.jpg" class="d-block img-fluid w-100" style="object-fit: contain; height: 100vh" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="lead text-black text-center m-5 p-5 fw-bold"><strong class="fst-italic"> Caption2 </strong></h5>
                 <!--<p>Some representative placeholder content for the second slide.</p>-->
             </div>
         </div>
         <div class="carousel-item">
-            <img src="../../../public/assets/images/no_image.jpg" class="d-block img-fluid w-100" style="object-fit: contain; height: 100vh" alt="...">
+            <img src="<?=ROOT?>../../public/assets/images/no_image.jpg" class="d-block img-fluid w-100" style="object-fit: contain; height: 100vh" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="lead text-altmydarkfuschia"> Caption3 </h5>
                 <!--<p>Some representative placeholder content for the third slide.</p>-->

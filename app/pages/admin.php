@@ -1,20 +1,15 @@
-<?php
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Admin <?=APP_NAME?></title>
+    <title>Admin | <?=APP_NAME?></title>
 
-    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="stylesheet" href="<?=ROOT?>../../css/custom.css">
 
     <!-- Custom styles for this template -->
-    <link href="../../public/assets/bootstrap-5.3.3-examples/dashboard/dashboard.css" rel="stylesheet">
+    <link href="<?=ROOT?>../../public/assets/bootstrap-5.3.3-examples/dashboard/dashboard.css" rel="stylesheet">
 
 </head>
 
@@ -131,7 +126,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link d-flex align-items-center gap-2 text-altmysaddlebrown" href="home.php">
+                            <a class="nav-link d-flex align-items-center gap-2 text-altmysaddlebrown" href="<?=ROOT?>">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house text-primary" viewBox="0 0 16 16">
                                     <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
                                 </svg>
@@ -165,16 +160,16 @@
                     </button>
                 </div>
             </div>
-            <!--      Dashboard -->
 
-            <iframe src="http://localhost/myfilrouge/pages/admin/dashboard.html" title="footer"  width="100%"  height="500"></iframe>
+            <!--      Dashboard -->
+            <?php include '../app/pages/admin/dashboard.php';?>
             <!--      /Dashboard -->
 
         </main>
     </div>
 </div>
 
-<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
+<script src="<?=ROOT?>/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
 
 </body>
 </html>

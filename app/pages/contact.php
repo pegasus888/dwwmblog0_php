@@ -1,24 +1,19 @@
-<?php
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Contact <?=APP_NAME?></title>
+    <title>Contact | <?=APP_NAME?></title>
 
-    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="stylesheet" href="<?=ROOT?>../../css/custom.css">
 
 </head>
 
 <body>
 
 <!--Header-->
-<iframe src="http://localhost/myfilrouge/pages/includes/header.html" title="header"  width="100%"  height="200"></iframe>
+<?php include '../app/pages/includes/header.php';?>
 <!--/Header-->
 
 <h1 class="text-primary text-center my-lg-5">Contact Info</h1>
@@ -62,10 +57,10 @@
 </section>
 
 <!--Footer-->
-<iframe src="http://localhost/myfilrouge/pages/includes/footer.html" title="footer"  width="100%"  height="500"></iframe>
+<?php include '../app/pages/includes/footer.php';?>
 <!--/Footer-->
 
-<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
+<script src="<?=ROOT?>../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
 
 </body>
 </html>

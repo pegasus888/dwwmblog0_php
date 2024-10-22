@@ -24,16 +24,16 @@
             <!--Logo-->
             <a href="" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
 
-                <img class="bi me-2 rounded-circle shadow" src="../../../public/assets/images/no_image.jpg" width="60" height="52"
+                <img class="bi me-2 rounded-circle shadow" src="<?=ROOT?>../../public/assets/images/no_image.jpg" width="60" height="52"
                      alt="logo" style="object-fit: cover;">
             </a>
             <!-- /Logo-->
 
             <!-- Navbar main menu-->
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="" class="nav-link px-2 'link-altmycolor':'link-info'?>">Home</a></li>
+                <li><a href="<?=ROOT?>" class="nav-link px-2 'link-altmycolor':'link-info'?>">Home</a></li>
 
-                <li><a href="" class="nav-link px-2 'link-altmycolor':'link-body-text-primary'?>">Xxxx<sub><i>Blog</i></sub></a></li>
+                <li><a href="" class="nav-link px-2 'link-altmycolor':'link-body-text-primary'?>">DM<sub><i>Blog</i></sub></a></li>
                 <li>
                             <span class="nav-link px-2 link-body-text-primary dropdown text-end">
                                 <a href="" class="d-block text-decoration-none dropdown-toggle 'link-altmycolor':'link-body-text-primary'?>" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,7 +53,7 @@
             <!-- /Navbar main menu-->
 
             <!-- Search Button-->
-            <form action="" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <form action="<?= ROOT?>/search" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                 <div class="input-group">
                     <input value="" name="find" type="search" class="form-control" placeholder="Search..." aria-label="Search">
                     <button class="btn btn-altlight">
@@ -70,13 +70,13 @@
             <div class="dropdown text-end">
                 <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="../../../public/assets/images/no_image.jpg" alt="user picture" style="object-fit: cover;" width="32" height="32" class="rounded-circle">
+                    <img src="<?=ROOT?>../../public/assets/images/no_image.jpg" alt="user picture" style="object-fit: cover;" width="32" height="32" class="rounded-circle">
                 </a>
 
                 <ul class="dropdown-menu text-small">
                     <li><a class="dropdown-item" href="#">Hi</a></li>
                     <!-- <li><a class="dropdown-item" href="#">Profile</a></li>-->
-                    <li><a class="dropdown-item" href="">Admin</a></li>
+                    <li><a class="dropdown-item" href="<?= ROOT?>/admin">Admin</a></li>
                     <!-- <li><a class="dropdown-item" href="#">Settings</a></li>-->
                     <li>
                         <hr class="dropdown-divider">

@@ -1,22 +1,3 @@
-<?php
-
-?>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>Footer</title>
-
-    <link rel="stylesheet" href="<?=ROOT?>../../../css/custom.css">
-
-</head>
-
-<body>
-
 </main>
 
 <!--Footer : Must be centered-->
@@ -90,9 +71,9 @@
                             <!--Home-->
                         </a>
                     </li>
-                    <li class="nav-item mb-2"><a href="<?=ROOT?>/../login" class="nav-link p-0 text-body-primary">Login</a></li>
-                    <li class="nav-item mb-2"><a href="<?=ROOT?>/../about" class="nav-link p-0 text-body-primary">About</a></li>
-                    <li class="nav-item mb-2"><a href="<?=ROOT?>/../contact" class="nav-link p-0 text-body-primary">Contact</a></li>
+                    <li class="nav-item mb-2"><a href="<?= ROOT?>/login" class="nav-link p-0 text-body-primary">Login</a></li>
+                    <li class="nav-item mb-2"><a href="<?=ROOT?>/about" class="nav-link p-0 text-body-primary">About</a></li>
+                    <li class="nav-item mb-2"><a href="<?=ROOT?>/contact" class="nav-link p-0 text-body-primary">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -100,7 +81,7 @@
 
         <!--Copyright-->
         <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 mx-4 border-top">
-            <p> Xxxx Blog, All rights reserved.</p>
+            <p> DW Blog, All rights reserved.</p>
         </div>
         <!-- /Copyright-->
 

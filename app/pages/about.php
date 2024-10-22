@@ -1,7 +1,4 @@
-<?php
-
-?>
-
+<?php include '../app/pages/includes/header.php';?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>About - <?=APP_NAME?></title>
+    <title>About | <?=ROOT?></title>
 
-    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="stylesheet" href="<?=ROOT?>../../css/custom.css">
 
 </head>
 
@@ -27,7 +24,7 @@
         </p>
 
         <div class="">
-            <a href="#" class="nav-link p-0">
+            <a href="<?= ROOT?>/contact" class="nav-link p-0">
                 <div>
                                 <span class="mx-1">
                                     <!--Linkedin-->
@@ -57,7 +54,4 @@
 
 </section>
 
-<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
-
-</body>
-</html>
+<?php   include '../app/pages/includes/footer.php'; ?>

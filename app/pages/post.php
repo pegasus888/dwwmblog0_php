@@ -1,8 +1,3 @@
-<?php
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>Post - <?=APP_NAME?></title>
+    <title>Post | <?=APP_NAME?></title>
 
-    <link rel="stylesheet" href="../../css/custom.css">
+    <link rel="stylesheet" href="<?=ROOT?>../../css/custom.css">
 
 </head>
 
 
 <body>
+
+<!--Header-->
+<?php include '../app/pages/includes/header.php';?>
+<!-- /Header-->
 
 <div class="mx-auto col-md-10">
     <h1 class="display-4 text-primary text-center mb-5 mt-4">Latest Posts</h1>
@@ -56,7 +55,7 @@
 
 <!-- Footer-->
 
-<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
+<script src="<?=ROOT?>../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" rel="stylesheet"></script>
 
 </body>
 </html>
