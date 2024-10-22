@@ -8,7 +8,8 @@ require "../app/core/init.php";
 // If a webserver: route path
 // define('ROOT', 'http://mywebsite.com');
 
-// ROUTING SYSTEM
+
+        // ROUTING SYSTEM
 
 // If there's nothing in the url after public we'll get 'home'
 $url = $_GET['url'] ?? 'home';
