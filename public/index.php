@@ -12,7 +12,8 @@ require "../app/core/init.php";
         // ROUTING SYSTEM
 
 // If there's nothing in the url after public we'll get 'home'
-$url = $_GET['url'] ?? 'home';
+//$url = $_GET['url'] ?? 'home';
+$url = isset($_GET['url']) ? $_GET['url'] : 'home';
 
 // Explode creates an array with individual items seperated (0 => item, 1=> item, 2=>item)
 $url = explode("/", $url);
