@@ -23,7 +23,7 @@ function create_tables()
     // Create users table
     $query = "create table if not exists users(
 
-        id int primary key auto_increment,
+        id int(11) primary key auto_increment,
         username varchar(50) not null,
         email varchar(100) not null,
         password varchar(255) not null,
@@ -41,7 +41,7 @@ function create_tables()
     /** Create categories table **/
     $query = "create table if not exists categories(
 
-        id int primary key auto_increment,
+        id int(11) primary key auto_increment,
         category varchar(50) not null,
         slug varchar(100) not null,
         disabled tinyint default 0,
@@ -55,12 +55,12 @@ function create_tables()
     // Create posts table
     $query = "create table if not exists posts(
 
-        id int primary key auto_increment,
-        user_id int,
-        category_id int,
+        id int(11) primary key auto_increment,
+        user_id int(11),
+        category_id int(11),
         
         title varchar(100) not null,
-        content text null,
+        content text not null,
         image varchar(1024) null,
         date datetime default current_timestamp,
         slug varchar(100) not null,
